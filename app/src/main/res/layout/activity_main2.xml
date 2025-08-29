@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="@color/graft"
+    >
+
+    <TextView
+        style="@style/PARENTS"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="Seguros XPTO"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        style="@style/TextTitle"
+        android:layout_marginTop="32dp"
+        android:text="Serviços"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        style="@style/PARENTS"
+        android:orientation="horizontal"
+        >
+        <Button
+            style="@style/button"
+            android:text="AUTOMOVEIS"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="16dp"
+            android:padding="24dp"
+            />
+        <Button
+            android:text="MANUALMOVEIS"
+            android:layout_weight="1"
+            style="@style/button"
+            android:layout_marginHorizontal="16dp"
+            android:padding="24dp"
+            />
+    </LinearLayout>
+
+    <View
+        style="@style/PARENTS"
+        android:layout_height="4dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/light_orange"
+        android:background="@drawable/layout_bg"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <LinearLayout
+        style="@style/PARENTS"
+        android:orientation="vertical"
+        >
+        <TextView
+            style="@style/TextTitle"
+            android:text="Novidades:"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            style="@style/PARENTS"
+            android:layout_marginHorizontal="64dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/layout_bg"
+            android:backgroundTint="@color/light_orange"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="5% de desconto só hoje"
+            android:textColor="@color/mater"
+            android:textStyle="bold"
+            />
+
+        <View
+            style="@style/PARENTS"
+            android:layout_height="4dp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/light_orange"
+            android:background="@drawable/layout_bg"
+            android:layout_marginHorizontal="10dp"
+            />
+
+        <TextView
+            style="@style/TextTitle"
+            android:text="Precisa de ajuda??"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="16dp"
+            />
+
+        <Button
+            style="@style/button"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:hint="Entre em contato"
+            android:layout_marginHorizontal="16dp"
+            />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
